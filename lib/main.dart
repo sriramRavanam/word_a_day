@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 200,
             child: Card(
               color: Colors.purple,
-              child: Text('WORD!'),
+              child: Text('SUCK A DICK!'),
               elevation: 5,
             ),
           ),
