@@ -27,18 +27,48 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[
+          IconButton(
+              icon: Icon(Icons.search),
+              onPressed: () {}
+            ),
+        ],
+        leading:
+          IconButton(
+            icon: Icon(Icons.list),
+            onPressed: () {},
+          ),
+
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         //crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
-            padding: EdgeInsets.all(20),
-            width: double.infinity,
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.lightBlueAccent,
+                width: 5,
+              ),
+            ),
+           // padding: EdgeInsets.all(20),
+            width: 300,
             height: 200,
             child: Card(
-              color: Colors.purple,
-              child: Text('SUCK A DICK!'),
+              color: Colors.lightBlue,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                  Text(
+                    'WORD!',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 25,
+                    ),
+                  ),
+                  Text('Definition')
+                ],
+              ),
               elevation: 5,
             ),
           ),
