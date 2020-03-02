@@ -1,0 +1,4 @@
+#Mon Mar 02 18:54:48 IST 2020
+base.0=D\:\\App_Dev\\DEV\\word_a_day\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
