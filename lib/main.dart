@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
         //crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Container(
-            decoration: BoxDecoration(
+             decoration: BoxDecoration
               border: Border.all(
                 color: Colors.lightBlueAccent,
                 width: 5,
